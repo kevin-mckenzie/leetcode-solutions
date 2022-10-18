@@ -10,7 +10,6 @@ class Solution:
             if s[lo].lower() != s[hi].lower():
                 return False
             lo += 1
-            hi -= 1
-            
+            hi -= 1  
         return True
         
